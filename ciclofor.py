@@ -1,6 +1,3 @@
-frutas = ["Durazno", "Banana","Manzana","Naranja","Pera"]
-contador = 0
-
-for fruta in frutas:
-    contador += 1
-    print(f"La fruta {contador}: {fruta}")
+nombres = ["Ana", "Luis", "Carlos"]
+for i, nombre in enumerate(nombres):
+    print(f"Posición {i} - {nombre}")
